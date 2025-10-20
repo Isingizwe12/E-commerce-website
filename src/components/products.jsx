@@ -9,7 +9,7 @@ import lipstickImage from '../assets/images/lipstick.jpg'
 import lipcareImage from '../assets/images/lipcare.jpg'
 import foundationImage from '../assets/images/foundation.jpg'
 
-function Products() {
+function Products({onAddToCart}) {
     const products=[
         {id:1, name:"Cleanser", price:"$29.99", image:cleanserImage},
         {id:2, name:"Toner", price:"$39.99", image:tonerImage},
@@ -41,6 +41,7 @@ function Products() {
             image={product.image}
             name={product.name}
             price={product.price}
+            onAddToCart={() => onAddToCart(product)}
           />
         ))}
       </div>

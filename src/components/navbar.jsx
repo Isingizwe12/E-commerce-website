@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Navbar({ cartCount }) {
   return (
     <nav
       className="flex flex-col md:flex-row bg-gradient-to-b from-pink-50 to-rose-100 shadow-md py-6 mx-auto px-4 justify-between items-center text-gray-700 font-medium"
@@ -46,9 +46,13 @@ function Navbar() {
             </svg>
 
             {/* Cart counter badge */}
-            <span className="absolute -top-2 -right-2 bg-rose-600 text-white text-xs font-bold rounded-full px-1.5">
-              2
-            </span>
+
+            {/* Cart counter badge */}
+            {cartCount > 0 && (
+              <span className="absolute -top-3 -right-3 bg-rose-600 text-white rounded-full text-xs px-2">
+                {cartCount}
+              </span>
+            )}
           </Link>
         </div>
       </div>
