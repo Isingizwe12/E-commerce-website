@@ -33,8 +33,32 @@ function Homepage() {
             />
           </div>
         </div>
-
+ 
       </section>
+       {/* Core Values / Why Choose Us */}
+            <section className="container bg-white mx-auto px-4 py-20 text-center">
+              <h2 className="text-4xl md:text-5xl font-extrabold text-rose-800 mb-12">Why Choose Us</h2>
+              <div className="grid md:grid-cols-3 gap-8">
+                <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition">
+                  <h3 className="text-2xl font-semibold text-rose-700 mb-4">Premium Quality</h3>
+                  <p className="text-rose-600 text-lg">
+                    We curate only the finest beauty products to ensure maximum satisfaction and care.
+                  </p>
+                </div>
+                <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition">
+                  <h3 className="text-2xl font-semibold text-rose-700 mb-4">Trusted Brand</h3>
+                  <p className="text-rose-600 text-lg">
+                    Years of experience and happy customers make us a beauty brand you can rely on.
+                  </p>
+                </div>
+                <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition">
+                  <h3 className="text-2xl font-semibold text-rose-700 mb-4">Self-Care Focused</h3>
+                  <p className="text-rose-600 text-lg">
+                    We promote self-love and wellness through our products and beauty tips.
+                  </p>
+                </div>
+              </div>
+            </section>
     </div>
   );
 }
