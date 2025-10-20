@@ -1,0 +1,42 @@
+import React from 'react';
+import beautyImage from '../assets/images/beauty.jpg';
+
+function Homepage() {
+  return (
+    <div className="bg-gradient-to-b from-pink-50 to-rose-100 min-h-screen">
+      {/* Hero Section */}
+      <section className="container mx-auto px-4 py-20 flex flex-col md:flex-row items-center md:justify-between">
+        
+        {/* Text Content */}
+        <div className="md:w-1/2 mb-10 md:mb-0 text-center md:text-left">
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-4 tracking-wide text-rose-800">
+            Glow & Glam
+          </h1>
+          <p className="text-lg md:text-xl mb-6 text-gray-700">
+            Discover the finest beauty products to pamper yourself. Skincare, makeup, and self-care essentials delivered to your door.
+          </p>
+          <button className="bg-rose-600 text-white px-6 py-3 rounded-xl shadow-lg font-semibold hover:bg-rose-500 transition">
+            Shop Now
+          </button>
+        </div>
+
+        {/* Hero Image */}
+        <div className="md:w-1/2 flex justify-center md:justify-end relative">
+          <div className="relative">
+            {/* Optional overlay for soft glow */}
+            <div className="absolute inset-0 bg-gradient-to-t from-white/40 to-transparent rounded-xl"></div>
+
+            <img
+              src={beautyImage}
+              alt="Beauty Hero"
+              className="rounded-2xl shadow-2xl w-full max-w-sm object-cover transform hover:scale-105 transition duration-500"
+            />
+          </div>
+        </div>
+
+      </section>
+    </div>
+  );
+}
+
+export default Homepage;
