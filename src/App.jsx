@@ -5,6 +5,7 @@ import About from './components/about'
 import Products from './components/products'
 import Cart from './components/cart'
 import { useState } from 'react'
+import Footer from './components/footer'
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 function App() {
  const [cartItems, setCartItems] = useState([]);
@@ -46,7 +47,7 @@ function App() {
 
 
       </Routes>
-      
+      <Footer/>
     </Router>
   )
 }
