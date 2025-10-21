@@ -41,7 +41,7 @@ function Products({onAddToCart}) {
             image={product.image}
             name={product.name}
             price={product.price}
-            onAddToCart={() => onAddToCart(product)}
+            addToCart={() => onAddToCart(product)}
           />
         ))}
       </div>

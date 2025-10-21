@@ -1,6 +1,6 @@
 import React from "react";
 
-function Cart({ cartItems, removeFromCart }) {
+function Cart({ cartItems, onRemove }) {
   // Calculate total
   const total = cartItems.reduce((sum, item) => sum + Number(item.price || 0), 0);
 
@@ -33,7 +33,7 @@ function Cart({ cartItems, removeFromCart }) {
                 <span className="text-center">${Number(item.price).toFixed(2)}</span>
                 <div className="text-right">
                   <button
-                    onClick={() => removeFromCart(index)}
+                    onClick={() =>onRemove(index)}
                     className="bg-rose-600 text-white px-3 py-1 rounded hover:bg-rose-500 transition"
                   >
                     Remove

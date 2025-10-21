@@ -45,8 +45,7 @@ function Navbar({ cartCount }) {
               <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.09.835l.383 1.437m0 0L6.75 14.25A1.125 1.125 0 007.875 15h10.125a1.125 1.125 0 001.125-1.125l1.5-7.5A1.125 1.125 0 0019.5 5.25H5.109m0 0L4.5 2.25M9 21a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm9 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
             </svg>
 
-            {/* Cart counter badge */}
-
+           
             {/* Cart counter badge */}
             {cartCount > 0 && (
               <span className="absolute -top-3 -right-3 bg-rose-600 text-white rounded-full text-xs px-2">
