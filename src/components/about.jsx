@@ -14,7 +14,7 @@ function About() {
             About Glow & Glam
           </h1>
           <p className="text-rose-700 text-lg md:text-xl mb-6">
-            At Glow & Glam, we believe in empowering every individual to embrace their beauty. 
+            At AllyShop, we believe in empowering every individual to embrace their beauty. 
             From skincare to makeup, our products are curated to enhance confidence and self-care.
           </p>
           <button className="bg-rose-600 text-white px-6 py-3 rounded-xl shadow-lg font-semibold hover:bg-rose-500 transition">
@@ -42,7 +42,7 @@ function About() {
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-4xl font-extrabold text-rose-800 mb-4">Our Story</h2>
           <p className="text-rose-700 text-lg md:text-xl">
-            Founded with a passion for beauty and wellness, Glow & Glam started as a small collection 
+            Founded with a passion for beauty and wellness, AllyShop started as a small collection 
             of skincare essentials. Today, we are a trusted beauty brand delivering premium products 
             that help people feel confident and radiant every day.
           </p>

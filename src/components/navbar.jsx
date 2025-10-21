@@ -10,7 +10,7 @@ function Navbar({ cartCount }) {
       {/* Left part - Logo */}
       <div>
         <h1 className="text-2xl font-bold text-rose-600 tracking-wide cursor-pointer">
-          <span className="text-gray-800 cursor-pointer">Shop</span>Ease
+          <span className="text-gray-800 cursor-pointer">Ally</span>Shop
         </h1>
       </div>
 
@@ -35,7 +35,7 @@ function Navbar({ cartCount }) {
 
         {/* Contact Button */}
         <button className="bg-rose-600 py-2 px-4 rounded text-white hover:opacity-80 cursor-pointer">
-          Contact Us
+          <Link to='/contact'>Contact Us</Link>
         </button>
 
           {/* Cart Icon (SVG) */}

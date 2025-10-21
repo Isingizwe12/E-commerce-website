@@ -5,6 +5,7 @@ import About from './components/about'
 import Products from './components/products'
 import Cart from './components/cart'
 import { useState } from 'react'
+import Contact from './components/contact'
 import Footer from './components/footer'
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='products' element={<Products onAddToCart={handleAddToCart}/>}/>
         <Route path='/cart' element={<Cart cartItems={cartItems} onRemove={handleRemoveFromCart} />}/>
+        <Route path='/contact' element={<Contact/>}/>
 
 
       </Routes>
