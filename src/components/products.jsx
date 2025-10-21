@@ -11,14 +11,14 @@ import foundationImage from '../assets/images/foundation.jpg'
 
 function Products({onAddToCart}) {
     const products=[
-        {id:1, name:"Cleanser", price:"$29.99", image:cleanserImage},
-        {id:2, name:"Toner", price:"$39.99", image:tonerImage},
-        {id:3, name:"Moisturizer", price:"$49.99", image:moisturizerImage},  
-        {id:4, name:"Serum", price:"$59.99", image:serumImage},
-        {id:5, name:"SunScreen", price:"$69.99", image:sunscreenImage},
-        {id:6, name:"Lipstick", price:"$79.99", image:lipstickImage},
-        {id:7, name:"Lip care", price:"$89.99", image:lipcareImage},
-        {id:8, name:"Foundation", price:"$99.99", image:foundationImage},
+        {id:1, name:"Cleanser", price: 29.99, image:cleanserImage},
+        {id:2, name:"Toner", price:39.99, image:tonerImage},
+        {id:3, name:"Moisturizer", price:49.99, image:moisturizerImage},  
+        {id:4, name:"Serum", price:59.99, image:serumImage},
+        {id:5, name:"SunScreen", price:69.99, image:sunscreenImage},
+        {id:6, name:"Lipstick", price:79.99, image:lipstickImage},
+        {id:7, name:"Lip care", price:89.99, image:lipcareImage},
+        {id:8, name:"Foundation", price:99.99, image:foundationImage},
     ]
   return (
      <div

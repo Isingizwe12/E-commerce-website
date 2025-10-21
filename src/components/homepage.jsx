@@ -1,7 +1,8 @@
 import React from 'react';
 import beautyImage from '../assets/images/beauty.jpg';
+import Products from './products';
 
-function Homepage() {
+function Homepage({onAddToCart}) {
   return (
     <div className="bg-gradient-to-b from-pink-50 to-rose-100 min-h-screen">
       {/* Hero Section */}
@@ -59,6 +60,8 @@ function Homepage() {
                 </div>
               </div>
             </section>
+      {/* Featured Products Section */}
+      <Products onAddToCart={onAddToCart} />
     </div>
   );
 }
