@@ -38,24 +38,25 @@ http://localhost:5173
 
 E-COMMERCE-WEBSITE/
 
-public/                     # Main source folder
-src/ 
-    assets/                 # Images used in the project (products, logos)                      
-    components/             # Reusable components
-       Navbar.jsx
-       Footer.jsx
-       ProductCard.jsx         
-       Home.jsx
-       About.jsx
-       Products.jsx
-       Cart.jsx
-       Contact.jsx
-
-   App.jsx                 # Main app component with routes
-   index.jsx               # Entry point for React
-package.json                 # Project dependencies & scripts
-vite.config.js               # Vite configuration
-README.md                    # Project documentation
+```E-COMMERCE-WEBSITE/
+├── public/                     # Public assets like index.html, favicon, images
+├── src/                        # Main source folder
+│   ├── assets/                 # Images used in the project (products, logos)
+│   ├── components/             # Reusable components
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Products.jsx
+│   │   ├── Cart.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx                 # Main app component with routes
+│   └── index.jsx               # Entry point for React
+├── package.json                # Project dependencies & scripts
+├── vite.config.js              # Vite configuration
+└── README.md                   # Project documentation
+```
 
 
 # The image preview of website
