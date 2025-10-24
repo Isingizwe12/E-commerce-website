@@ -2,7 +2,8 @@
 
 AllyShop is a modern and user-friendly e-commerce web application designed for beauty and skincare products.It allows users to browse products, view details, add items to their cart, and manage their shopping experience with ease.
 
-Features
+# Features
+
  **Product Listing** – Browse a variety of beauty & skincare products   
  **Add to Cart / Remove from Cart** – Smooth cart interaction  
  **Shopping Cart Page** – View selected products and thier total& remove items  
@@ -22,7 +23,8 @@ Features
 https://github.com/Isingizwe12/E-commerce-website
 
 **2. Install Dependencies**
-Make sure you have Node.js (v18 or later) and npm installed.
+Make sure you have Node.js (v18 or later) and npm installed
+
 npm install
 
 **3. Start the Development Server**
@@ -35,28 +37,25 @@ http://localhost:5173
 # Project Structure
 
 E-COMMERCE-WEBSITE/
-│
-├── public/                     # Main source folder
-├── src/ 
-    └── assets/                 # Images used in the project (products, logos)                      
-│   ├── components/             # Reusable components
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   ├── ProductCard.jsx         
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Products.jsx
-│   │   ├── Cart.jsx
-│   │   └── Contact.jsx
-│   │
-│   ├── App.jsx                 # Main app component with routes
-│   ├── index.jsx               # Entry point for React
-│   └── data.js                 # Sample product data (optional)
-│
-├── package.json                 # Project dependencies & scripts
-├── postcss.config.js            # PostCSS configuration
-├── vite.config.js               # Vite configuration
-└── README.md                    # Project documentation
+
+public/                     # Main source folder
+src/ 
+    assets/                 # Images used in the project (products, logos)                      
+    components/             # Reusable components
+       Navbar.jsx
+       Footer.jsx
+       ProductCard.jsx         
+       Home.jsx
+       About.jsx
+       Products.jsx
+       Cart.jsx
+       Contact.jsx
+
+   App.jsx                 # Main app component with routes
+   index.jsx               # Entry point for React
+package.json                 # Project dependencies & scripts
+vite.config.js               # Vite configuration
+README.md                    # Project documentation
 
 
 # The image preview of website
